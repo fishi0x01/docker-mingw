@@ -5,4 +5,4 @@ RUN apt-get update \
     && apt-get dist-upgrade -y
 
 # Cross compiler
-RUN apt-get install -y mingw-w64
+RUN apt-get install -y mingw-w64=5.0.3-1
